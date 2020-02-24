@@ -1,0 +1,92 @@
+#paige-container{
+    position: relative;
+    min-height: 100vh;
+    background-color : rgb(240, 229, 183);
+    
+}
+
+.navbar-background {
+    background-color:#ccb46e ;
+    font-family: 'Yantramanav' !important;
+    font-size: larger;
+    font-weight: bold;
+}
+
+
+.body-paragraph{
+    font-family: 'Yantramanav';
+    font-weight: bold;
+    font-size: larger;
+    position: relative;
+    padding: 10px;
+    
+}
+
+.body-div {
+    font-family: 'Yantramanav';
+    position: relative;
+    padding: 10px;  
+}
+
+@media (min-width: 768px) {
+    .carousel-multi-item-2 .col-md-3 {
+        float: left;
+        max-width: 100%; 
+        width: 25%;
+    } 
+}
+    
+.carousel-multi-item-2 .card img {
+    border-radius: 2px; 
+}
+
+.img-fluid{
+    width:400px;
+    height:320px;
+    
+}
+
+hr {
+    border: dotted #cebc85 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 20px auto;
+}
+
+/* Footer */
+#contact {
+    color: black;
+    text-align: center;
+    font-family: 'Yantramanav';
+    background-color: #ccb46e;
+    padding: 2%;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    }
+    
+    .contact-icon {
+    color: black;
+    margin: 20px 10px;
+    font-size: 1.5rem;
+    }
+    
+    .icon-fb:hover{
+    text-decoration: none;  
+    color: #3578E5; 
+    }
+    
+    .icon-instagram:hover{
+    text-decoration: none;  
+    color: rgb(207, 85, 160);
+    }
+    
+    .icon-mail:hover{
+    text-decoration: none;  
+    color: whitesmoke;
+    }
+
+    .icon-phone:hover{
+    text-decoration: none;  
+    color: rgb(16, 163, 41);
+    }
