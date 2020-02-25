@@ -1,3 +1,13 @@
+/* html{scroll-behavior:smooth} */
+
+.golden-dust-image{
+    position: absolute;
+    height: 700px;
+    width: max-content;
+    right: 0;
+    z-index: -1;
+}
+
 #paige-container{
     position: relative;
     min-height: 100vh;
@@ -10,6 +20,7 @@
     font-family: 'Yantramanav' !important;
     font-size: larger;
     font-weight: bold;
+    z-index: 1;
 }
 
 
@@ -35,7 +46,12 @@
         width: 25%;
     } 
 }
-    
+   
+.carousel-inner{
+    padding-top: 20px;
+    z-index: 1;
+}
+
 .carousel-multi-item-2 .card img {
     border-radius: 2px; 
 }
@@ -51,6 +67,7 @@ hr {
     border-bottom: none;
     width: 4%;
     margin: 20px auto;
+    
 }
 
 /* Footer */
@@ -63,6 +80,7 @@ hr {
     position: relative;
     bottom: 0;
     width: 100%;
+    box-shadow: 0px 0px 17px -1px;
     }
     
     .contact-icon {
@@ -89,4 +107,23 @@ hr {
     .icon-phone:hover{
     text-decoration: none;  
     color: rgb(16, 163, 41);
+    }
+
+
+    .arrow-img{
+        height: 100px;
+        width: 100px;
+        position: absolute;
+        top: 40px;
+        left: 705px;
+        visibility: hidden;
+    }
+    .arrow-invisibility{
+        visibility: hidden;
+
+        
+    }
+
+    .arrow-visibility{
+        visibility: visible;
     }
