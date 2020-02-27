@@ -11,7 +11,7 @@
 #paige-container {
     position: relative;
     min-height: 100vh;
-    background-color: rgb(240, 229, 183);
+    background-color: #F0E5B7;
 
 }
 
@@ -72,7 +72,7 @@ hr {
 
 /* Footer */
 #contact {
-    color: black;
+    color: #000000;
     text-align: center;
     font-family: 'Yantramanav';
     background-color: #ccb46e;
@@ -84,7 +84,7 @@ hr {
 }
 
 .contact-icon {
-    color: black;
+    color: #000000;
     margin: 20px 10px;
     font-size: 1.5rem;
 }
@@ -96,17 +96,17 @@ hr {
 
 .icon-instagram:hover {
     text-decoration: none;
-    color: rgb(207, 85, 160);
+    color:#CF55A0;
 }
 
 .icon-mail:hover {
     text-decoration: none;
-    color: whitesmoke;
+    color: #F5F5F5;
 }
 
 .icon-phone:hover {
     text-decoration: none;
-    color: rgb(16, 163, 41);
+    color: #10A329;
 }
 
 .footer-picture-print {
@@ -117,7 +117,7 @@ hr {
 }
 
 .footer-para {
-    color: rgb(97, 94, 94);
+    color: #615E5F;
     font-weight: bold;
 }
 
@@ -134,8 +134,8 @@ hr {
     visibility: visible;
 }
 
-@media screen and (max-width: 600px) {
+@media only screen and (min-width: 600px) {
     .arrow-img {
-      
+        left: 435px;
     }
 }

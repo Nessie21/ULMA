@@ -1,13 +1,13 @@
+//jshint esversion:6
 document.addEventListener("visibilitychange", function () {
   if (document.hidden) {
-    var title = document.getElementById('title');
+    let title = document.getElementById('title');
     title.innerHTML = 'Wróć do nas!';
   } else {
-    var title = document.getElementById('title');
+    let title = document.getElementById('title');
     title.innerHTML = 'ULMA';
   }
 });
-
 
 function showArrow() {
   var arrow = document.getElementById('arrow');
@@ -15,7 +15,7 @@ function showArrow() {
 }
 
 function hideArrow() {
-  var arrow = document.getElementById('arrow');
+  let arrow = document.getElementById('arrow');
   arrow.classList.remove('arrow-visibility');
 }
 
