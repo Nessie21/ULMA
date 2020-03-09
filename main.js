@@ -54,3 +54,8 @@ $(document).ready(function () {
     } // End if
   });
 });
+window.onload = function () {
+  currentDate = new Date();
+  let year = currentDate.getFullYear();
+  document.getElementById('footerYear').textContent = '© Copyright ' + year + ' ULMA';
+}
