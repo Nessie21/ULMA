@@ -15,8 +15,9 @@
     "url": "https://github.com/Nessie21/ULMA/issues"
   },
   "homepage": "https://github.com/Nessie21/ULMA#readme",
-  "description": "",
   "dependencies": {
     "ejs": "^3.0.1"
-  }
+  },
+  "devDependencies": {},
+  "description": ""
 }
